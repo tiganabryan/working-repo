@@ -5,11 +5,11 @@ h3 {
     font-family: Arial, sans-serif;
 }
 
-h1 {
+h1.title {
     background-color: pink;
-    color: white;
+    width: 140px;
+    color: white; 
     padding: 10px;
-    border: 20px;
     border-radius: 6px;
 }
 
@@ -22,4 +22,12 @@ p,
 ul,
 ol {
     font-family: Arial, sans-serif;
+}
+
+#detailed-header {
+    background-color: lightblue;
+    border: 2px rgb(256,256,256) dotted;
+    /* border-width: 2px;
+    border-color:rgb(256,256,256);
+    border-style: dotted; */
 }

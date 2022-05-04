@@ -10,6 +10,6 @@ h1 {
     border: 20px;
 }
 
-#detailed-header {
-    text-align:left;
+h4 {
+    font-size: 130%;
 }

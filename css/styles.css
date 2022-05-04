@@ -3,3 +3,13 @@ h2,
 h3 {
     text-align: center;
 }
+
+h1 {
+    background-color: pink;
+    padding: 10px;
+    border: 20px;
+}
+
+#detailed-header {
+    text-align:left;
+}

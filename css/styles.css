@@ -5,12 +5,17 @@ h3 {
     font-family: Arial, sans-serif;
 }
 
-h1.title {
-    background-color: pink;
-    width: 140px;
+h1 {
+    margin: 0 auto;
     color: white; 
-    padding: 10px;
+    /* display: inline; */ 
+}
+
+span {
+    background-color: pink;
     border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 h4 {
@@ -24,10 +29,19 @@ ol {
     font-family: Arial, sans-serif;
 }
 
-#detailed-header {
+.detailed-header {
     background-color: lightblue;
     border: 2px rgb(256,256,256) dotted;
     /* border-width: 2px;
     border-color:rgb(256,256,256);
     border-style: dotted; */
+    padding: 2px 5px 2px 5px;
+}
+
+.learn-button {
+    background-color: lightblue;
+    padding: 2px 5px 2px 5px;
+    border-color: lightblue;
+    border-radius: 6px;
+    margin: 2px;
 }

@@ -11,6 +11,11 @@ h1 {
     /* display: inline; */ 
 }
 
+h2 {
+    margin-bottom: -.5em;
+}
+
+
 span {
     background-color: pink;
     border-radius: 6px;
